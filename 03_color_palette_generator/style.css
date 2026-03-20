@@ -79,7 +79,6 @@ button:active {
 .palette {
   display: flex;
   gap: 20px;
-  perspective: 1000px;
 }
 
 .color {
@@ -91,8 +90,6 @@ button:active {
   align-items: end;
   padding: 15px;
   font-weight: bold;
-  
- 
   transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 10px 20px rgba(0,0,0,0.3);
